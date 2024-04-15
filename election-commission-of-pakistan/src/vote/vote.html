@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <title>Cast Your Vote</title>
+</head>
+
+<body class="font-inter-tight">
+    <div class="bg-gray-200 pb-10">
+        <nav
+            class="list-none flex  justify-center gap-4 p-4 border-solid border-2 bg-gray-100 text-green-900  ml-5 mr-5 rounded-full items-center md:gap-48 font-bold md:text-xl sm:overflow-x-hidden">
+            <a href="../welcome/welcome.html">
+                <li>Home</li>
+            </a>
+            <li>FAQ</li>
+            <li>
+                <img src="../welcome/ECP logo.png" alt="image" class="border-none w-14 md:w-20
+            ">
+            </li>
+            <li>
+                <a href="../static/portfolio/portfolio.html">Portfolios</a>
+            </li>
+            <button class="text-red-600 border-2 p-3 rounded-lg border-gray-500">
+                <a href="./vote.html">
+                    <li>Vote Here</li>
+                </a>
+
+            </button>
+        </nav>
+    </div>
+    <section class="flex flex-col justify-center items-center ">
+        <div class="mt-20 font-bold text-4xl sm:text-7xl">
+            <h1>Vote Now</h1>
+        </div>
+        <div class="mt-16 font-bold sm:text-4xl">
+            <p>Make Your Voice Heard! Cast your vote and be part of the change.</p>
+        </div>
+    </section>
+    <section class="flex flex-col justify-center mt-20 border-4 w-fit m-auto p-16 border-black rounded-xl">
+        <div class="">
+            <form action="">
+                <!-- Full name Input -->
+                <label for="" class="font-bold">Full Name:</label>
+                <br>
+                <input type="text" class="border border-gray-500 rounded-lg mt-3 p-2 text-center"
+                    placeholder="Muhammad Affan">
+                <br>
+                <br>
+                <!-- Username Input -->
+                <label for="" class="font-bold">Username:</label>
+                <br>
+                <input type="text" class="border border-gray-500 rounded-lg mt-3 p-2 text-center"
+                    placeholder="41303-*******-*">
+                <br>
+                <br>
+                <!-- Password Input -->
+                <label for="" class="font-bold">Password:</label>
+                <br>
+                <input type="text" class="border border-gray-500 rounded-lg mt-3 p-2 text-center"
+                    placeholder="muhammadaffan">
+                <br>
+                <!-- Gender Input -->
+                <p class="font-bold mt-3">Gender:</p>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <br>
+                <br>
+                <!-- Age Input -->
+                <label for="" class="font-bold">Age:</label>
+                <br>
+                <input type="number" class="border border-gray-500 rounded-lg mt-3 p-2 text-center">
+                <br>
+                <br>
+                <!-- State Province Input -->
+                <label for="province" class="font-bold">State/Province</label>
+                <br>
+                <br>
+                <select name="" id="province">
+                    <option value="province">KPK</option>
+                    <option value="province">Punjab</option>
+                    <option value="province">Balochistan</option>
+                    <option value="province">Sindh</option>
+                </select>
+                <!-- Selecting Party -->
+                <br>
+                <br>
+                <label for="province" class="font-bold">Select a Party To Vote</label>
+                <br>
+                <br>
+                <select name="" id="province">
+                    <option value="province">PML(N)</option>
+                    <option value="province">TLP</option>
+                    <option value="province">MQM</option>
+                    <option value="province">PPPP</option>
+                </select>
+                <!-- Submit Button -->
+                <div class="flex justify-evenly mt-7">
+                    <button form="login-form" type="reset"
+                        class="bg-red-700 hover:bg-red-600 transition duration-300 ease-in-out p-3 rounded-lg border-2 text-white font-lato">Reset</button>
+                    <button type="submit" id="submitButton"
+                        class="bg-green-700 hover:bg-green-600 transition duration-300 ease-in-out p-3 rounded-lg border-2 text-white font-lato">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
